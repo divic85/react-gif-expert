@@ -9,7 +9,7 @@ import { useFetchGifs } from "../hooks/useFetchGifs";
 
 export const GifGrid = ({category}) => {
 
-   console.log('Llega a gif:'+ category)
+   console.log('Llega a gif::'+ category)
    const {images,isLoading} = useFetchGifs(category);
 
 
